@@ -2,18 +2,18 @@
 
 ## Index
 
-1. [构造函数模式](#1构造函数模式)[source](https://github.com/rimushi/js-design-pattern/blob/master/demo1.js)
-1. [模块化模式](#2模块化模式)[source](https://github.com/rimushi/js-design-pattern/blob/master/demo2.js)
-1. [暴露模块模式](#3暴露模块模式)[source](https://github.com/rimushi/js-design-pattern/blob/master/demo3.js)
-1. [单例模式](#4单例模式)[source](https://github.com/rimushi/js-design-pattern/blob/master/demo4.js)
-1. [观察者模式](#5观察者模式)[source](https://github.com/rimushi/js-design-pattern/blob/master/demo5.js)
-1. [中介者模式](#6中介者模式)[source](https://github.com/rimushi/js-design-pattern/blob/master/demo6.js)
-1. [原型模式](#7原型模式)[source](https://github.com/rimushi/js-design-pattern/blob/master/demo7.js)
-1. [命令模式](#8命令模式)[source](https://github.com/rimushi/js-design-pattern/blob/master/demo8.js)
-1. [外观模式](#9外观模式)[source](https://github.com/rimushi/js-design-pattern/blob/master/demo9.js)
-1. [工厂模式](#10工厂模式)[source](https://github.com/rimushi/js-design-pattern/blob/master/demo10.js)
-1. [装饰者模式](#11装饰者模式)[source](https://github.com/rimushi/js-design-pattern/blob/master/demo11.js)
-1. [享元模式](#12享元模式)[source](https://github.com/rimushi/js-design-pattern/blob/master/demo12.js)
+1. [构造函数模式](#1构造函数模式) | [source](https://github.com/rimushi/js-design-pattern/blob/master/demo1.js)
+1. [模块化模式](#2模块化模式) | [source](https://github.com/rimushi/js-design-pattern/blob/master/demo2.js)
+1. [暴露模块模式](#3暴露模块模式) | [source](https://github.com/rimushi/js-design-pattern/blob/master/demo3.js)
+1. [单例模式](#4单例模式) | [source](https://github.com/rimushi/js-design-pattern/blob/master/demo4.js)
+1. [观察者模式](#5观察者模式) | [source](https://github.com/rimushi/js-design-pattern/blob/master/demo5.js)
+1. [中介者模式](#6中介者模式) | [source](https://github.com/rimushi/js-design-pattern/blob/master/demo6.js)
+1. [原型模式](#7原型模式) | [source](https://github.com/rimushi/js-design-pattern/blob/master/demo7.js)
+1. [命令模式](#8命令模式) | [source](https://github.com/rimushi/js-design-pattern/blob/master/demo8.js)
+1. [外观模式](#9外观模式) | [source](https://github.com/rimushi/js-design-pattern/blob/master/demo9.js)
+1. [工厂模式](#10工厂模式) | [source](https://github.com/rimushi/js-design-pattern/blob/master/demo10.js)
+1. [装饰者模式](#11装饰者模式) | [source](https://github.com/rimushi/js-design-pattern/blob/master/demo11.js)
+1. [享元模式](#12享元模式) | [source](https://github.com/rimushi/js-design-pattern/blob/master/demo12.js)
 ---
 
 ## 1构造函数模式
