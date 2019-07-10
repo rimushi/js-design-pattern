@@ -1,25 +1,23 @@
-# js-design-pattern
-
-
-## HTML Template
+# javascript 设计模式示例库
 
 ## Index
 
-1. [构造函数模式](#构造函数模式)
-1. [模块化模式](#模块化模式)
-1. [暴露模块模式](#暴露模块模式)
-1. [单例模式](#单例模式)
-1. [观察者模式](#观察者模式)
-1. [中介者模式](#中介者模式)
-1. [原型模式](#原型模式)
-1. [命令模式](#命令模式)
-1. [外观模式](#外观模式)
-1. [工厂模式](#工厂模式)
-1. [装饰者模式](#装饰者模式)
-1. [享元模式](#享元模式)
+1. [构造函数模式](#1构造函数模式)
+1. [模块化模式](#2模块化模式)
+1. [暴露模块模式](#3暴露模块模式)
+1. [单例模式](#4单例模式)
+1. [观察者模式](#5观察者模式)
+1. [中介者模式](#6中介者模式)
+1. [原型模式](#7原型模式)
+1. [命令模式](#8命令模式)
+1. [外观模式](#9外观模式)
+1. [工厂模式](#10工厂模式)
+1. [装饰者模式](#11装饰者模式)
+1. [享元模式](#12享元模式)
 ---
 
-## 构造函数模式
+## 1构造函数模式
+[source](https://github.com/rimushi/js-design-pattern/blob/master/demo1.js)
 
 ``` bash
 function Person( name, age) {
@@ -40,7 +38,8 @@ console.log(sun.toSay());
 ```
 
 
-## 模块化模式
+## 2模块化模式
+[source](https://github.com/rimushi/js-design-pattern/blob/master/demo2.js)
 
 ``` bash
 var testModule = (function(){
@@ -62,7 +61,8 @@ console.log(testModule.resetCounter());
 
 ```
 
-## 暴露模块模式
+## 3暴露模块模式
+[source](https://github.com/rimushi/js-design-pattern/blob/master/demo3.js)
 
 ``` bash
 var myRevealingModule = function () {
@@ -101,7 +101,7 @@ myRevealingModule.start();
 
 ```
 
-## 单例模式
+## 4单例模式
 
 ``` bash
 // 单例构造函数
@@ -134,7 +134,7 @@ console.log(a===b);
 
 ```
 
-## 观察者模式
+## 5观察者模式
 
 ``` bash
 // 观察者模式也可以称为订阅模式
@@ -188,7 +188,7 @@ merchants.publish('15888888888');
 
 ```
 
-## 中介者模式
+## 6中介者模式
 
 ``` bash
 var Plane = function(name) {
@@ -226,7 +226,7 @@ p1.send('我要降落', p2);
 
 ```
 
-## 原型模式
+## 7原型模式
 
 ``` bash
 // 原型模式 （Prototype pattern）：通俗点讲就是创建一个
@@ -289,7 +289,7 @@ anotherCar.name = '丰田佳美';
 
 ```
 
-## 命令模式
+## 8命令模式
 
 ``` bash
 // 命令模式的主要用途是让命令的接收者和命令发送者消除耦合
@@ -311,7 +311,7 @@ anotherCar.name = '丰田佳美';
      } 
 
  }; 
- // 命令对象 
+ // 9命令对象 
  var commondObj = function(reciver) {
      return function() { 
         reciver.reFresh(); 
@@ -323,7 +323,7 @@ anotherCar.name = '丰田佳美';
 
 ```
 
-## 外观模式
+## 9外观模式
 
 ``` bash
 // 门面模式
@@ -364,7 +364,7 @@ computer.start();
 
 
 
-## 工厂模式
+## 10工厂模式
 
 ``` bash
 //用函数来封装以特定接口创建对象的细节，工厂模式解决了重复实例化的问题 
@@ -382,7 +382,7 @@ console.log(person1);
 
 ```
 
-## 装饰者模式
+## 11装饰者模式
 
 ``` bash
 // 给对象动态添加职责的方式就是装饰者模式，
@@ -440,7 +440,7 @@ plan.fire();//发射普通子弹,发射导弹!
 
 ```
 
-## 享元模式
+## 12享元模式
 
 ``` bash
 var Model = function( sex, underwear ){
